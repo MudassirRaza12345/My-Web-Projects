@@ -1,0 +1,29 @@
+#info{
+background-color: blueviolet;
+color: whitesmoke;
+font-size: 18px;
+border: 1px solid black;
+margin: 5px 10px 40px 10px;
+}
+h1{
+    color: blueviolet;
+}
+#qw{
+    text-align: center;
+    color: blueviolet;
+}
+#aq{
+    text-align: center;
+    color:rgb(50,180,50);
+}
+td{
+    width: 200px; ;
+}
+#zx{
+    padding: 20px;
+}
+#logo
+{
+    width: 500px;
+    height: 200px;
+}

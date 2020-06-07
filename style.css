@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(65,105,200);
+}
+
+#TR{
+    background-color: cyan;
+}
+
+
+#we{
+    background-color: greenyellow;
+    color: deepskyblue;
+}
+
+h1{
+    background-color: aqua;
+    color: darkorchid;
+}
+
+
+
+h1 >b{
+    color: orange;
+}
+
+
+
+p{
+    border: 5px  solid chocolate;
+    background-color: gold;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 20px;
+    color: cyan; 
+    text-decoration: none;
+}
+a{
+    color:green; 
+    text-decoration: none;
+    text-decoration: underline red; 
+    
+}

@@ -1,0 +1,692 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+@media only screen and (max-width:50%)
+{
+    body{
+        width: 50%auto;
+    }
+
+}
+@media only screen and (max-width:600px)
+{
+    .qw{
+        width: 400px;
+    }
+    
+}
+
+
+
+.qw{
+    border: rgb(65,105,200) 5px solid;
+    background-color:rgb(65,105,200) ;
+    width: 100%;
+    padding: 0px 60px 1px 30px;
+    color: cornsilk;
+    
+
+      
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    min-width: 30%;
+    padding: 0 auto;
+    
+    margin: 0 auto;
+}
+
+.one{
+    padding-right: 20px;
+}    
+.two{
+    padding-right: 20px;
+    padding-left: 10px;
+}    
+
+
+button{
+    color: darkgreen;
+}
+
+
+
+/* second task */
+
+.nav{
+    width:100%;
+    
+        
+    padding-top: 0px;
+    margin-top: 0px;
+   
+    overflow:auto;
+
+    
+    
+    } 
+ ul{
+    list-style: none;
+    position: absolute;
+    
+    
+    text-decoration: none;
+    margin-top: 0px;
+    background-color:whitesmoke;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    float: right;
+
+    
+    
+
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    font-size: 14px;
+
+    
+    
+}
+#logo{
+    margin-top: 0px;
+    padding-top: 0px;
+    float: left;
+    margin-bottom: 0px; 
+    padding-right: 10px;
+    
+ position: relative;
+    left: 5px;
+    top: -10px;
+    margin-right: 30px;
+}
+
+
+
+
+
+a{
+    
+    color:black;
+    display: inline block;
+    font-style: bold;
+    text-align: center;
+    padding: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+     
+
+}
+.po a:hover{
+    background-color: rgb(65,105,200) ;
+    border-radius: 20px;
+    color: white;
+
+}
+#Home a{
+    background-color: rgb(65,105,200) ;
+    border-radius: 20px;
+    color: white;
+}
+
+ul li ul {
+    margin-top:35px;
+    background-color:white;
+    border-radius: 0px;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: left;
+    padding-top: 2px;
+    width: 20%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+ul li ul li{
+
+    width: 80%;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    text-align: left;
+    
+
+}
+.poe:hover a{
+    background-color: rgb(65,105,200) ;
+    border-radius: 0px;
+    color: white;
+    display: block;
+    border: 2px solid rgb(65,105,200);
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px
+
+}
+ul li ul li a{
+    color: grey;
+    width: 100%;
+}
+ul li ul li a:hover{
+    
+    background-color: rgb(65,105,200);
+    border-radius: none;
+    
+
+}
+
+
+ul li ul {
+    display: none;
+    
+}
+ul li:hover ul{
+    display: block;
+} 
+
+
+
+/* imaging */
+.imaging{
+    padding: 10px;
+    margin: 20px;
+    border: 1px yellow  solid;
+    text-align: center;
+    background-color:yellow;
+}
+
+
+
+
+/* thrid task */
+.note{
+    border: 5px solid rgb(65,105,200);
+    background-color: rgb(65,105,200);
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    color:gold;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+
+    padding-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+   }
+   /* fourth task  */
+
+.int{
+    background-color: whitesmoke;
+    width: 100%;
+     
+    border: 10px solid whitesmoke ;
+    margin: 0px;
+}
+
+
+
+.o{
+    color:rgb(65,105,200);
+    display: inline;
+    font-family: 'Times New Roman', Times, serif ;
+    
+    font-size: 35px;
+    
+       
+   }
+   .p{
+    
+    color: green;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif ;
+    
+    font-size: 35px;
+ 
+       
+   } 
+   
+.no{
+    display: inline;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    color: green;
+ 
+}   
+.ne{
+    display: inline;
+    
+    
+    } 
+ #favcon{
+    position: relative;
+    bottom: -20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+} 
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    font-style: none;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+    padding-top: 10px;
+    line-height: 30px;
+}
+.introduction{
+      
+    margin: 50px 200px 0px 390px;
+        
+    }
+.intro{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -10px;
+    left: 160px;
+
+}  
+  /*five task  */
+.mn{
+    border: 50px solid rgb(68, 65, 255);
+    width: 100%;
+  height: 5px;
+    background-color:rgb(68, 65, 255);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+} 
+.gf{
+    text-align: center;
+}
+
+.in{
+    padding-right: 10px; 
+    margin-right: 10px;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    
+    
+
+}
+.num{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+   font-style: bold;
+    text-align: center;
+
+}
+.number{
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.numbers{
+    display: inline;
+    font-size: 16px;
+    text-align: center;
+    color: springgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.numb{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    font-style: bold;
+    }
+
+
+
+.numbe{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    font-style: bold;
+}
+#jh{
+    position: relative;
+    top: -50;
+    padding-top: 0px;
+    margin-top: 0px;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-left: 0px;
+    text-align: center;
+    font-style: bold;
+
+}
+
+/* six task */
+
+
+
+
+
+
+.what{
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
+     width: 100%;
+     
+     padding: 0px 100px 0px 0px;
+     text-align: left;
+     margin-top: 0px;
+     margin-left: 20px;
+     border-spacing: 20px;
+     
+}
+
+    
+
+ .work{
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: 25%;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+    height: 150px;
+    padding-top: 10px;
+    margin-top: 30px;
+  }
+  .introdu{
+      
+    margin: 50px 200px 0px 300px;
+        
+    }
+.introd{
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -10px;
+    left: 160px;
+
+}  
+
+/* seven task */
+
+.proj{
+    background-color:white;
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+    
+}
+#lk{
+    display: inline;
+    margin-left: 160px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#kl{
+    display: inline;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.proje{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-style: bold;
+    padding-left : 40px;
+    padding-top: 0px; 
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+
+
+   
+   
+#mj{
+    display: inline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-style: bold;
+    padding-left : 50px;
+    padding-top: 0px; 
+    margin-top: 0px;
+    padding-bottom: 30px;
+    padding-right: 500px;
+}
+#jm{
+    display: inline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-style: bold;
+    padding-left : 60px;
+    padding-top: 0px; 
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+.projects{
+     /* border: royalblue solid 2px;  */
+    padding-top: 20px;
+    margin-left:0px ;
+    /* width: 50%; */
+    height: 50%;
+    border-spacing: 25px;
+    
+    
+}
+.nh{
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    width: 290px;
+    color: royalblue;
+    height: 70px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    padding-top: 0px;
+    /* padding-left: 30px; */
+    
+    
+}
+
+ .vc{
+    display: inline;
+    /* margin: 0px auto;
+    padding: 0px auto; */
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+
+}
+.vce{
+   
+    display: inline;
+    margin-left: 30px;
+    font-size: 20px;
+    
+    font-style: bold;
+    text-shadow: 10px;
+}
+.set{
+    font-size: 13px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 350px;
+    line-height: 30px;
+}
+.introduct{
+      
+    margin: 200px 250px 0px 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: gainsboro 10px;
+        
+    }
+    .introducti{
+        margin-left: 280px;
+        margin-right: 300px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        position: relative;
+        top: -10px;
+        left: 160px;
+    }
+.pic{
+   margin-left: 30px;
+}      
+.image{
+    padding-bottom: 150px;
+}
+/* 8 task */
+
+
+.secondlast{
+    width: 100%;
+    height: 500px;
+    border: 1px solid ;
+    background-color: rgb(24,24,24);
+    color:gray;
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+
+.df{
+    width: 250px;
+    margin-left: 40px;
+    line-height: 30px;
+    margin-top: 100px;
+    font-style: bold;
+    text-shadow: 50px gray;
+
+}
+.xz{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    top: -210px;
+    left: 60px;
+    text-shadow: 100px gray;
+    
+}
+.jk{
+    display: inline-block;
+    line-height: 50px;
+    
+}
+.ds{
+    display: inline;
+    font-size: 10px;
+    
+
+    text-shadow: gray 10px;
+    color:gainsboro;
+    position: relative;
+    top: -261px;
+    left: 55px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+
+}
+.as{
+    display: inline;
+    font-size: 30px;
+    color:rgba(0, 128, 0, 0.884);
+    position: relative;
+    top: -265px;
+    left: 60px;
+    right: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    white-space: 0px;
+
+}
+.ui{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    position: relative;
+    top: -230px;
+    left: 80px;
+
+
+}
+
+
+/* nine task */
+.last{
+    border: royalblue 5px solid;
+    background-color: royalblue;
+    color: seashell;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 25px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-top: 0px;
+
+}
+#go
+{
+    position: fixed;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0,0.1);
+}
+#go:hover{
+    background-color: gray;
+}

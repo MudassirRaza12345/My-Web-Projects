@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+<body>
+    <!-- first task  -->
+<div class="main">  
+      <table class="qw">
+          
+        <tr>
+            
+            <td class="one"><img width="20px"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEU6VZ////81Up0yT5xgc61+jbsvTZyXo8hFXaOirM0nSJmlrs7O1OUkRpkfQ5c1UZ1oerKHlcDp6/M9WKHHzeHV2ulxgravt9Td4Ozl6PGDkb7ByN5YbatQZ6j29/q3v9h2hrhMY6aQnMSsAnKHAAAC70lEQVR4nO3caXLiMBRFYdoihhhsQ5jDlPT+F9mdqv7bRrYQ7z7XOQug9BUWHiQzmRARERERERERERERERERqVe0IZQPCtaDHFwo62Yz/VrP3jtbrH0Sy7rYH46/YtpV1oPtX6jCbBel+2npThjq/Taa51AYmrdTH583YdHsP/r5nAnLTa/j05+w+ezv8yRsq/MQoB9hmPeegb6E5eU2DOhFWK4G+rwIw3CgD2G4Dge6ELaboXPQi7CJu4nwK6zvKUAHwvCVBHQgrFMmoQdh4jGqL2wviUB5YRP/uMKnsJ2mAtWF9XLkwjblcs2FsDqMXZh6LpQXhn06UFtYpZ7t5YX1wEczboTF/AlAaWFYP0OovPZU9pmGt9194W79sIq/Jt2uqqrytwbcxJ4NT9e6tR7soEIk8N749E2K7zjgubEe6dAi75yOboGxwrnTQ/RvRZTwIHy6e1SccF5Yj3N4UcJjbT3MhKKEh9J6mAlFCZWvyR4WJXxDqBxChPohRKgfQoT6IUSoH0KE+iFEqB9ChPqNQ1h0vKJcxWwt/aofvelsDFzNOlpECO9dH/DT+8ZUWMYgErNdfXuB8Ga7RPwCofHy2wuE59EfpQvbH9MXCNejF65st2q8QPhtu5Mhv/BmfE2TX/hhvGMqv3BpvBslv/BuvGUqv3A2+nloff+YX3gx3rmYX2j9CCC78Ga9NzO78GS9dTG7cDv679B8c2Z24e/R/9LsRy+8Wm/kzy60nobZhdb3TvmF9u8e5hYaP0p8gfB99PPQ/l2F3MKp+StDuYXWvuxC60eJ+YXm907ZhQJ/NlA+4d9ZOrrbH6WTzbyjmL+D/Oz6BNsl/H8V/y9E7TYpOz7BGveoceyn6QohQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLs0R8aFUYEFLSeAgAAAABJRU5ErkJggg=="
+                    alt=""></td>
+            <td class="one"><img width="20px"
+                    src="data:image/png;base64,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"
+                    alt=""></td>
+            <td class="one"><img width="30px"
+                    src="data:image/png;base64,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"
+                    alt=""></td>
+            <td class="one"><img width="20px"
+                    src="https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/whatsapp-512.png"
+                    alt=""></td>
+                
+                
+            <td class="two">
+                <p id="three">Millions of people's life has changed, millions more awaiting your donation</p>
+            </td></div>
+            <div>
+            <td><button>UK donor</button></td>
+            <td><button>Donate Now</button></td>
+            <td><button>SMIT Results</button></td>
+        
+        </tr>
+    </table>
+
+<!-- @media only screen and (max-width:600px){
+body{
+    background-color: ;
+}
+}
+ -->
+
+    <!-- second task -->
+
+
+    <nav class="nav">
+        
+        <ul>
+            <li><a href="#"><img height="50" width="200" id="logo" src="image/Saylani-logo (1).png" alt=""></a></li>
+            <li id="Home"><a href="#"> Home</a></li>
+             <li class="po"><a href=""> About
+                <svg class="bi bi-chevron-down" width="10px" height="10px"
+                        viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 01.708 0L8 10.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                            clip-rule="evenodd" />
+                    </svg></a>
+                <ul>
+                    <li class="poe"><a href="" class="rer">Intoduction</a></li>
+                    <li class="poe"><a href="" class="rer">Chairman Message</a></li>
+                    <li class="poe"><a href="" class="rer">Saylani Annual Report</a></li>
+                </ul>
+            </li>
+            <li class="po"><a href="#">Saylani Services 
+                <svg class="bi bi-chevron-down" width="10px" height="10px"
+                        viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 01.708 0L8 10.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                            clip-rule="evenodd" />  </svg>
+                        </a>
+                
+                    <ul>
+                        <li class="poe"> <a href="#">Education </a></li>
+                        <li class="poe"><a href="#">Health</a></li>
+                        <li class="poe"><a href="#">Welfare</a></li>
+                        <li class="poe"><a href="#">Hajj Application</a></li>
+                        <li class="poe"><a href="#">Saylani Dasterkhawan </a></li>
+                    
+                    </ul>
+
+            </li>
+            <li class="po"><a href="#">Future Projects 
+                <svg class="bi bi-chevron-down" width="10px" height="10px"
+                        viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 01.708 0L8 10.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                            clip-rule="evenodd" />
+                    </svg></a>
+                <ul>
+                    <li class="poe"><a href="#">Saylani University</a></li>
+                    <li class="poe"><a href="#">Saylani City</a></li>
+                </ul>
+            </li>
+            <li class="po"> <a href="">Media</a></li>
+            <li class="po"><a href="">News</a></li>
+            <li class="po"><a href="">Donation 
+                <svg class="bi bi-chevron-down" width="10px" height="10px"
+                        viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1.646 4.646a.5.5 0 01.708 0L8 10.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                            clip-rule="evenodd" />
+                    </svg> 
+                </a>
+                <ul>
+                    <li class="poe"><a href="#">Bank Details</a></li>
+                    <li  class="poe"><a href="#">Sadqa </a></li>
+                    <li class="poe"><a href="#">Aqeqa</a></li>
+                    <li class="poe"><a href="#">other Donation</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+        <br>
+        
+        <br>
+        <br>
+        <div class="imaging">
+            <img width="450px" src="image/rashan2.jpg" alt="">
+            <img width="450px" src="image/food.jpg" alt="">
+        </div>
+        <!-- third task -->
+        <h1 class="note">Note:
+            Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month .
+        </h1>
+
+        <!-- forth task -->
+        <div class="int">
+            <div class="introduction">
+                <h1 class="o">INTRO</h1>
+                <h1 class="p">DUCTION</h1>
+
+            </div>
+            <div class="intro">
+                <h1 class="no">____</h1>
+                <h1 class="no"> <img id="favcon" width="40px" src="image/favicon.png" alt=""></h1>
+                <h1 class="no"> ____ </h1>
+            </div>
+            <p class="para">
+
+                Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani
+                Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating
+                the financial troubles of the poor, giving people a chance to live a dignified life and spreading
+                happiness.
+            </p>
+            <p class="para">We are an organization that believes in lighting up the lives of underprivileged people
+                across the world. We endeavor to provide the best quality services in areas including food, education,
+                medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we
+                feed thousands of hungry people each day, hundreds more are given the hope of life through medical
+                health care, many are educated to become leaders of tomorrow and several are given the opportunity to
+                stand on their feet financially.<p>
+                </p>
+                <p class="para"> Today, we are proud to say that our physical presence extends throughout Pakistan with
+                    a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad,
+                    Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA
+                    and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000
+                    working professionals who help almost 125,000 people on a daily basis.</p>
+
+                <p class="para">We strongly believe that a little help goes a long way and our work would not be
+                    possible without the generous support of our valuable donors. Our local and international donors
+                    have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people
+                    in need.</h1>
+
+
+        </div>
+
+        <!-- five task -->
+        <table class="mn">
+            <tr id="jh">
+                <td id="jh"> <img class="in" width="50px" src="image/icon_food_png.png" alt=""></td>
+                <td id="jh"><img class="in" width="50px" src="image/icon_family_png.png" alt=""></td>
+                <td id="jh"><img class="in" width="50px " src="image/icon_medical_png.png" alt=""></td>
+                <td id="jh"> <img width="50px" class="in" src="image/icon_education_png.png" alt=""></td>
+            </tr>
+            <tr>
+                <td class="numb">125,000
+                </td>
+                <td class="numbe">7,500
+                </td>
+                <td class="numb">43,749
+                </td>
+                <td class="numb">180,000
+                </td>
+            </tr>
+            <tr>
+                <td > <h1 class="num">DAILY</h1> </td>
+                <td ><h1 class="num">FAMILY</h1> </td>
+                <td class="gf"> <h1 class="number">  MEDICAL </h1> <h1 class="numbers">(MONTHLY)</h1></td>
+                <td class="gf"><h1 class="number"> EDUCATION </h1> <h1 class="numbers">(MONTHLY)</h1></td>
+
+                
+
+            </tr>
+            <tr>
+                <td class="gf"> <h1 class="number">DASTRAKHAN</h1> <h1 class="numbers">(MONTHLY)</h1></td>
+                <td class="gf"> <h1 class="number">ADOPTION</h1> <h1 class="numbers">(MONTHLY)</h1></td>
+
+
+            </tr>
+        </table>
+<div>
+<div>
+
+    <!-- Six task -->
+
+</div  class="what"">
+
+<div class="int">
+    <div class="introdu">
+        <h1 class="o">WHAT WE</h1>
+        <h1 class="p">ARE DOING</h1>
+        </div>
+
+
+<div class="introd">
+                <h1 class="no">____</h1>
+                <h1 class="no"> <img id="favcon" width="40px" src="image/favicon.png" alt=""></h1>
+                <h1 class="no"> ____ </h1>
+            </div>
+
+<table class="what">
+    <tr>
+        <td class="work"><img src="image/onlinesadqah.png" alt="">
+            <h1>ONLINE SADQAH</h1></td>
+        <td class="work"><img src="image/welfare.png" alt="">
+            <h1>WELFARE</h1></td>
+        <td class="work"><img src="image/medical.png" alt="">
+            <h1>MEDICAL</h1></td>
+    </tr>
+    <tr>
+        <td class="work"><img src="image/Dastarkhwan.png" alt="">
+        <h1>DASTARKHWAN</h1></td>
+        <td class="work"><img src="image/ROPLANT.png" alt="">
+        <h1>RO PLANT</h1></td>
+        <td class="work"><img src="image/education.png" alt="">
+        <h1>EDUCATION</h1></td>
+    </tr>
+
+    
+</table>
+ </div>
+           
+<!--  task 7 --> 
+<div class="image">
+    <div class="proj">
+        <h1 id="kl">MISSION AND UPCOMING PROJECTS</h1>
+        <h1 id="lk">Upcoming Events</h1>
+    </div>
+    <div>
+        <h1 id="mj">
+            ____
+        </h1 >
+        <h1 id="jm">
+            ____
+        </h1 >
+    </div>
+
+
+
+
+     <table class="projects">
+    <h1 class="set">Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan .More Details
+
+        Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad.
+
+                
+        Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .More Details
+        
+        PIAIC Entrance Exam Merit Ranking List Announced.
+        
+        President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. 
+        
+        
+    </h1>
+       
+ 
+<tr>
+    <td class="nh"  ><h1 class="vc"> <img src="image/Hepatitis.png"  alt=""></h1> <h1 class="vce">HEPATITIS</h1> </td>
+    <td class="nh"><h1 class="vc"><img src="image/housing.png" alt=""></h1><h1 class="vce">HOUSING SOCIETY</h1> </td>
+</tr>
+<tr>
+    <td class="nh"><h1 class="vc"> <img src="image/IT.png" alt=""></h1 ><h1 class="vce">IT LITERACY</h1></td>
+    <td class="nh"><h1 class="vc"><img src="image/tharparkar.png" alt=""></h1><h1 class="vce">THARPARKAR</h1></td>
+</tr>
+</table> 
+
+<div class="introduct">
+    <h1 class="o">IMAGE</h1>
+    <h1 class="p">GALLERY</h1>
+</div>
+<div class="introducti">
+    <h1 class="no">____</h1>
+    <h1 class="no"> <img id="favcon" width="40px" src="image/favicon.png" alt=""></h1>
+    <h1 class="no"> ____ </h1>
+</div>
+<p class="pic">
+    <img width="180px" src="image/rashan2.jpg" alt="">
+    <img width="180px" src="image/food.jpg" alt="">
+    <img width="180px" src="image/hazrat.jpg" alt="">
+    <img width="180px" src="image/rashan2.jpg" alt="">
+    <img width="180px" src="image/hazrat2.jpg" alt="">
+</p>
+
+</div>
+
+
+
+<!-- 8 task  -->
+<div class="secondlast">
+
+
+    <div class="jk" >
+        <p class="df" >Head Office,<br>
+            A-25, Bahadurabad Chowrangi Karachi, Pakistan <br>
+            
+           <img width="15px" background-color="#191919" src="image/white-phone-icon-transparent-background-56.png" alt=""> UAN: 111-729-526 <br>
+           <img width="15px" background-color="#191919"   src="image/bb43df55bf190858aff7395e793bbc83_browser-globe-green-internet-network-web-world-icon_512-506.png" alt=""> (+0092-213) 4130786-90 <br>
+           <img width="15px" background-color="#191919" src="image/white-phone-icon-transparent-background-56.png" alt=""> CELL: 92-311-1729526 <br>
+           <img width="15px" background-color="#191919" src="image/white-phone-icon-transparent-background-56.png" alt=""> USA NO +1(716)941 7792 <br>
+           <img width="15px" background-color="#191919" src="image/white-phone-icon-transparent-background-56.png" alt=""> UK NO (+44)115 970 6256 <br>
+            <img  width="15px"  src="image/green-email-5-icon-free-green-email-icons-green-email-icon-256_256.png" alt=""> info@saylaniwelfare.com</p>
+    </div>
+    <div class="jk"><h1 class="xz"> Useful Links</h1>
+        <p class="as">  ___</p>
+        <p class="ds">____________________________________</p>
+    
+    </div>
+    <div class="jk">   <h1 class="ui">Connect With Us <br>
+    <img   width="30px" background-color="#191919" src="image/facebook-512.webp" alt="">
+    <img  width="33px" background-color="#191919" src="image/twitter-logo-png-images-free-download-twitter-logo-png-360_360.png" alt="">
+    <img   width="33px" background-color="#191919" src="image/instagram-icon-logo-4D790D4C15-seeklogo.com.png" alt="">
+    <img  width="33px" background-color="#191919" src="image/bfa_brands-youtube_flat-circle-white-on-blue_512x512.png" alt="">
+</h1></div>
+</div>
+
+<!-- 9 task -->
+<p class="last"> Copyright © 2020 Saylani Welfare</p>
+<a id="go" href="#"  alt=""><svg class="bi bi-chevron-compact-up" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 01.448 0l6 3a.5.5 0 11-.448.894L8 6.56 2.224 9.447a.5.5 0 11-.448-.894l6-3z" clip-rule="evenodd"/>
+  </svg></a>
+
+</div>
+</body>
+
+</html>
