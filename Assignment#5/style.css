@@ -1,0 +1,32 @@
+.intro{
+    border: 1px solid rgb(239, 154, 154);
+    text-align: center;
+    padding: 50px;
+    margin: 70px;
+    background-color: #33FFD7;
+    box-shadow:    5px 5px 8px 4 px rgb(239, 154, 154) ;
+}
+a{
+    text-decoration: none;
+}
+.bo{
+font-size: 35px;
+font-style: bold;
+font-family: 'Times New Roman', Times, serif;
+color: #01579B;
+text-decoration: none;
+}
+.mso{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: #DD2C00;
+}
+.ti{
+     text-align: left;
+     margin-left: 100px;
+}
+a .tie{
+    text-align: left;
+    margin-left: 100px;
+}
