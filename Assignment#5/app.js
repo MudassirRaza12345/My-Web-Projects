@@ -436,7 +436,7 @@ var e = d%3
 //}
 // alert message not display
 
-TASK:6
+//TASK:6
 // var x =+prompt("Enter first subject  marks")
 // var y=+prompt("Enter second subject  marks")
 // var z=+prompt("Enter thirdd subject  marks")
@@ -595,6 +595,126 @@ TASK:6
 // else{
 //     alert("please enter the reqiure information")
 // }
+
+//---------------Ch:12 to 13-----------------------------
+
+//Task:01
+// var a=prompt("Enter the character to check")
+// var index=0;
+// var i=a.charCodeAt(index)
+// if(i>=65 && i<=90){
+//     document.write("The letter you enter is upper case")
+// }
+// else if(i>=97 && i<=122){
+//     document.write("The letter you enter is lower case")
+// }
+// else if(i>=48 && i<=57){
+//     document.write("The letter you enter is digit")
+// }
+
+
+
+
+
+
+
+
+//Task:02
+// var a=+prompt("Enter First number :");
+// var b=+prompt("Enter second number :");
+// if(a>b){
+//     document.write(a+" is greater ")
+// }
+// else if(b>a){
+//     document.write(b+" is greater ")
+// }
+// else{
+//     document.write(a+" & "+b+" are equal")
+// }
+
+//Task:03
+// var a=+prompt("Enter the number to check")
+// if(a>0){
+//     document.write("The number is positive ")
+// }
+// else if(a<0){
+//     document.write("The number is negative ")
+// }
+// else{
+//     document.write("The number is 0 ")
+// }
+
+
+//Task:04
+// var user=prompt("Enter the character")
+// if(user ==="A"||user ==="a"||user ==="E"||user ==="e"||user ==="I"||user ==="i"||user ==="O"||user ==="o"||user ==="U"||user ==="u"){
+//     document.write("True")
+// }
+
+// else {
+//     document.write("False")
+// }
+
+//Task:05
+// var password="Ali786110"
+// var user_password=prompt("Enter your Password")
+// if(user_password ===""){
+//     alert("please entr your password")
+// }
+// else if(user_password ===password){
+//     document.write("Correct! The password you entered matches the original password")
+// }
+// else{
+//     document.write("Incorrect password")
+// }
+
+//Task:06
+// var greeting;
+// var hour=13;
+// if(hour <18){
+//     greeting="Good day"
+//     document.write(greeting)
+// }
+// else{
+//     greeting="Good evening"
+//     document.write(greeting)
+// }
+
+//Task:07
+// var time=1900;
+// if(time>=000 && time <1200){
+//     document.write("Good morning!")
+// }
+// else if(time>=1200 && time <1700){
+//     document.write("Good afternoon!")
+// }
+// else if(time>=1700 && time <2100){
+//     document.write("Good evening!")
+// }
+// else if(time>=2100 && time <2359){
+//     document.write("Good night!")
+// }
+// else{
+//     document.write("Good bye")
+// }
+
+
+//OR
+// var time=1900;
+// if(time>=000 && time <1200){
+//     document.write("Good morning!")
+// }
+// else if(time>=1200 && time <1700){
+//     document.write("Good afternoon!")
+// }
+// else if(time>=1700 && time <2100){
+//     document.write("Good evening!")
+// }
+// else{
+//     document.write("Good night!")
+//  }
+
+
 
 //-----ch:14 to 16
 
