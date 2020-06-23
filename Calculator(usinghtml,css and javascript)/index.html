@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 class="head"> My FIRST CALCULATOR </h1>
+    <div class="main">
+        <div>
+            <input type="text" class="res" id="res">
+        </div>
+        <div>
+            
+        
+            <button class="clr" style="background-color: #ff4000;border: #ff4000;" onclick="clearResult()" >C</button>
+            <button class="sym" onclick="getNumber('%')" style="border: #ff8000	;background-color: #ff8000	;">%  </button>
+        </div>
+        <div>
+            <button class="btnn" onclick="getNumber('7')">7</button>
+            <button class="btnn" onclick="getNumber('8')">8</button>
+            <button class="btnn" onclick="getNumber('9')">9</button>
+            <button class="sym" style="background-color: #ffbf00;border: #ffbf00;" onclick="getNumber('*')">x</button>
+        
+        </div>
+        <div>
+            <button class="btnn" onclick="getNumber('4')">4</button>
+            <button class="btnn" onclick="getNumber('5')">5</button>
+            <button class="btnn" onclick="getNumber('6')">6</button>
+            <button class="sym" style="background-color: #00ffbf;border: #00ffbf;" onclick="getNumber('-')">-</button>
+        
+        </div>
+        <div>
+            <button class="btnn" onclick="getNumber('1')">1</button>
+            <button class="btnn" onclick="getNumber('2')">2</button>
+            <button class="btnn" onclick="getNumber('3')">3</button>
+            <button class="sym" style="background-color: #0080ff;border: #0080ff;" onclick="getNumber('+')">+</button>
+        
+        </div>
+        <div>
+            <button class="btnn" onclick="getNumber('0')">0</button>
+            <button class="btnn" onclick="getNumber('.')">.</button>
+            <button class="btnn"  onclick="getresult()" style="background-color: #F1948A;border: #F1948A;" >=</button>
+            <button class="sym" style="background-color: #9575CD; border: #9575CD;" onclick="getNumber('/')">&#247</button>
+        
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
