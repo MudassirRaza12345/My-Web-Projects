@@ -87,6 +87,8 @@ function timer(){
 function start(){
     interval=setInterval(timer,10)
     document.getElementById('start').disabled=true
+    document.getElementById('stop').disabled=false
+    document.getElementById('reset').disabled=false
 
 
 }
@@ -94,12 +96,13 @@ function stop(){
     clearInterval(interval)
     document.getElementById('start').disabled=false
     document.getElementById('stop').disabled=true
+    document.getElementById('reset').disabled=false
 }
 
 function reset(){
     document.getElementById('start').disabled=false
     document.getElementById('stop').disabled=false
-    document.getElementById('reset').disabled=false
+    document.getElementById('reset').disabled=true
     hour=0
     min=0
     sec=0

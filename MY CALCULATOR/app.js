@@ -1,6 +1,9 @@
 function getNumber(num){
     var result=document.getElementById("res")
-    result.value +=num
+         result.value +=num
+
+    
+    
 }
 function clearResult(){
     var result=document.getElementById("res")
