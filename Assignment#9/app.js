@@ -203,14 +203,87 @@
 // // var amount=parseInt(prompt("Please input the amount for with draw"))
 // // document.write("You will have "+parseInt(amount/100)+" hundreds notes "+parseInt((amount%100)/50)+" fifty notes "+parseInt(((amount%100)%50)/10)+" ten notes")
 
+//Ch:43 to 48
+
+// TASK#1
 
 
 
 
 
-// // TASK#1
-// // TASK#1
-// // TASK#1
-// // TASK#1
-// // TASK#1
-// // TASK#1
+
+
+
+
+// TASK#2
+//on index.html filee
+
+
+
+// TASK#3
+
+function SomeDeleteRowFunction(o) {
+    //no clue what to put here?
+    var p=o.parentNode.parentNode;
+        p.parentNode.removeChild(p);
+   }
+
+
+
+// TASK#4
+
+// function b1(){
+//    var img=  document.getElementById("img")
+//    img.src="images/b2.jpg"
+//    img.style.width="300px"
+//    img.style.height="300px"
+
+// }
+// function b2(){
+//     var img=  document.getElementById("img")
+//     img.src="images/b1.jpg"
+//     img.style.width="300px"
+//     img.style.height="300px"
+ 
+//  }
+
+// Task #5
+// var clicks = 0;
+// function push() {
+//     clicks+=1;
+//     document.getElementById("clicks").innerHTML = clicks;
+// }
+
+
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
+// TASK#1
