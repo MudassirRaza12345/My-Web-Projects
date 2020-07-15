@@ -222,11 +222,11 @@
 
 // TASK#3
 
-function SomeDeleteRowFunction(o) {
-    //no clue what to put here?
-    var p=o.parentNode.parentNode;
-        p.parentNode.removeChild(p);
-   }
+// function SomeDeleteRowFunction(o) {
+//     //no clue what to put here?
+//     var p=o.parentNode.parentNode;
+//         p.parentNode.removeChild(p);
+//    }
 
 
 
@@ -254,11 +254,79 @@ function SomeDeleteRowFunction(o) {
 //     document.getElementById("clicks").innerHTML = clicks;
 // }
 
+// ch:49 to 52
 
+//TASk#1
+
+// function sub(){
+    
+//     var n1=document.getElementById("n1")
+//     var n2=document.getElementById("n2")
+//     var n3=document.getElementById("n3")
+//     document.write("NAME: "+n1.value+"<br>")
+//     document.write("EMAIL: "+n2.value+"<br>")
+//     document.write("PASSWORD: "+n3.value+"<br>")
+     
+    
+// }
+
+
+
+// TASK#2
+// function read(){
+//     var price="18000"
+//     var read=document.getElementById("pera")
+//     read.innerText=price
+//     read.style.textDecoration="none"
+// }
+
+
+
+
+
+// TASK#3
+
+
+// ch#58 to 67
 // TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
+// var a=document.getElementById("main-content")
+// //one way
+// //console.log(a.childNodes)
+// //second way
+// // console.log(a.childNodes[1])
+// // console.log(a.childNodes[2])
+// // console.log(a.childNodes[3])
+// // console.log(a.childNodes[4])
+// // console.log(a.childNodes[5])
+ //var b=document.getElementsByClassName("render")
+// console.log(b)
+// document.getElementById("first-name").value="ALI "
+// document.getElementById("last-name").value="RAZA"
+// document.getElementById("email").value=("mudassirraza12345@gmail.com")
+
+
+// TASK#2
+// var a=document.getElementById("form-content")
+// console.log(a.nodeType)
+
+//var b=document.getElementById("lastName")
+// console.log(b.nodeType)
+//console.log(b.childNodes)
+//or
+// console.log(b.childNodes[0])
+//update
+// console.log(b.childNodes[0])
+//or
+//console.log(b.childNodes[0].nodeValue="ali:124")
+// var c=document.getElementById("main-content")
+//console.log(c.firstChild)
+// //console.log(d.previousSibling)
+//console.log(d.nextSibling)
+// var e=document.getElementById("email")
+// console.log(e.parentNode)
+
+
+
 // TASK#1
 // TASK#1
 // TASK#1
