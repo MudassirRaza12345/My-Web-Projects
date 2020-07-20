@@ -342,14 +342,14 @@
 
 
 //Ch#53 to 57
-function big(e){
-var modalimage=document.getElementById("modalimg")
-modalimage.src=e.src
-modalimage.style.width="300px"
-modalimage.style.height="300px"
-console.log(modalimage)
+// function big(e){
+// var modalimage=document.getElementById("modalimg")
+// modalimage.src=e.src
+// modalimage.style.width="300px"
+// modalimage.style.height="300px"
+// console.log(modalimage)
 
- }
+//  }
 
 
 
