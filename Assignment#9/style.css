@@ -8,3 +8,23 @@
     
      }
   */
+  img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.body{
+    margin: 0 auto;
+}
+#images{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+.modal{
+    display: none;
+}
+/* #modalimg{
+    width: 500px;
+    height: 500px;
+} */

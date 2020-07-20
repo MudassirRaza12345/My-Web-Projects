@@ -206,7 +206,7 @@
 //Ch:43 to 48
 
 // TASK#1
-
+//on index.html file
 
 
 
@@ -216,18 +216,23 @@
 
 
 // TASK#2
-//on index.html filee
+//on index.html file
 
 
 
 // TASK#3
-
-// function SomeDeleteRowFunction(o) {
-//     //no clue what to put here?
-//     var p=o.parentNode.parentNode;
+//one way
+// function deleteRow(o) {
+ //     var p=o.parentNode.parentNode;
 //         p.parentNode.removeChild(p);
 //    }
 
+//  second way  
+//    function deleteRow(o) {
+//     var p = o.parentNode.parentNode.rowIndex;
+//     document.getElementById("tab").deleteRow(p);
+    
+// }
 
 
 // TASK#4
@@ -285,6 +290,73 @@
 
 
 // TASK#3
+
+// function AddData() {
+//     var x = document.getElementById("age").value;
+//     var y = document.getElementById("name").value;
+
+//     if ((x == "") || (y == "")) {
+//         alert("Please Insert Data");
+//     } else {
+//         var rows = "";
+//         var name = y;
+//         var gender = document.querySelector('input[name="gender"]:checked');
+//         gender = gender ? gender.value : '';
+//         var age = document.getElementById("age").value;
+//         var city = document.getElementById("city").value;
+//         rows += "<td>" + name + "</td><td>" + gender + "</td><td>" + age + "</td><td>" + city + "</td><td>" + '<input type="button" value="Delete" onclick="deleteRow(this)"></input>' + "&nbsp" + '<input type="button" value="Edit" onclick="dis();UpdateRow(this)"></input>' + "</td>";
+//         var tbody = document.querySelector("#list");
+//         var tr = document.createElement("tr");
+
+//         tr.innerHTML = rows;
+//         tbody.appendChild(tr);
+//         ResetForm();
+//     }
+// }
+
+// function dis(){
+    
+//     var upt = document.getElementById("uas").style.display = "block";
+//     var apt = document.getElementById("person").style.display = "none";
+// }
+// function ResetForm() {
+//     document.getElementById("person").reset();
+// }
+
+// function deleteRow(r) {
+
+    // var i = r.parentNode.parentNode.rowIndex;
+    // document.getElementById("person").deleteRow(i);
+//    var p=r.parentNode.parentNode;
+//     p.parentNode.removeChild(p);
+// }
+
+// function UpdateRow(r){
+//     var i = r.parentNode.parentNode.rowIndex;
+//     var z=document.getElementById("uas").rows
+    
+
+
+    
+// }
+
+
+//Ch#53 to 57
+function big(e){
+var modalimage=document.getElementById("modalimg")
+modalimage.src=e.src
+modalimage.style.width="300px"
+modalimage.style.height="300px"
+console.log(modalimage)
+
+ }
+
+
+
+
+
+
+
 
 
 // ch#58 to 67

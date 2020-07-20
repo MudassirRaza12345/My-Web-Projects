@@ -23,17 +23,77 @@
 </div> -->
 
 <!-- TASK #3 -->
-<!-- <table>
+<!-- <table id="tab">
     <tr>
-        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction(this)"></td>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
     </tr>
     <tr>
-        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction(this)"></td>
+        <td>0</td>
+        <td>Ali</td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
     </tr>
     <tr>
-        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction(this)"></td>
+        <td>1</td>
+        <td>Raza</td>
+        <td>9</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Raza</td>
+        <td>8</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>3</td>
+        <td>Mehar Ali</td>
+        <td>4</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>4</td>
+        <td>Hammad</td>
+        <td>5</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>5</td>
+        <td>Arsalan</td>
+        <td>6</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>6</td>
+        <td>Mudassir</td>
+        <td>7</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>7</td>
+        <td>Anas</td>
+        <td>8</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>8</td>
+        <td>Arham </td>
+        <td>9</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr >
+        <td>9</td>
+        <td>Ali Anwar</td>
+        <td>10</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
     </tr>
  </table> -->
+
+
+
+
  <!-- tASK#4 -->
 <!-- <img src="images/b2.jpg" id="img" onmouseout="b2()" onmouseover="b1()" alt=""> -->
     
@@ -86,8 +146,112 @@
 <p  style="border: 2px solid gold;color: blue; width: 170px;">Price is: <a id="pera" style="text-decoration:underline red;color: blue;" href="#" onclick="read()">readmore</a></p>
 </center> -->
 
+<!-- Task#3 -->
+<!-- 
+<h2>BIO DATA FORM</h2>
+    <div id = "data">
+        <form id = "person">    
+            
+            Name: <input id = "name" name = "name" type = "text">
+            <br><br>
+            Gender: <input name = "gender" type = "radio" value = "Male"> Male
+                    <input name = "gender" type = "radio" value = "Female"> Female
+                    <input name="gender" type="radio" value="Others" >Others
+            <br><br>
+            Age: &nbsp;&nbsp;&nbsp; <input id = "age" name = "age" type = "number">
+            <br><br>
+            City: &nbsp;&nbsp;&nbsp;<select id = "city" name = "city">
+                    <option>Select Any</option>
+                    <option>Lahore</option>
+                    <option>Islamabad</option>
+                    <option>Karachi</option>
+                    <option>Peshawar</option>
+                </select>
+            <br><br>
+            <input id = "button" type = "button" value = " Reset " onclick = "ResetForm()">&nbsp;&nbsp;&nbsp;
+            <input id = "button" type = "button" value = " Add " onclick = "AddData()">
+            
+        </form>
+        <form id="uas" style="display: none;" 
+        <br><br>
+        Name: <input id = "name" name = "name" type = "text">
+        <br><br>
+        Gender: <input name = "gender" type = "radio" value = "Male"> Male
+                <input name = "gender" type = "radio" value = "Female"> Female
+                <input name="gender" type="radio" value="Others" >Others
+        <br><br>
+        Age: &nbsp;&nbsp;&nbsp; <input id = "age" name = "age" type = "number">
+        <br><br>
+        City: &nbsp;&nbsp;&nbsp;<select id = "city" name = "city">
+                <option>Select Any</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+                <option>Karachi</option>
+            </select>
+        <br><br>
+        <input id = "button" type = "button" value = " Update ">
+    </form>
+</div>
+
+<h3>List Of Students</h3>
+<div id = "tab">
+        <table id = "list" cellspacing = "0px" cellpadding = "20px" text-align = "center">
+            <th>
+                <tr>
+                    <td>Name</td>
+                    <td>Gender</td>
+                    <td>Age</td>
+                    <td>City</td>
+                    <td>Action Perform</td>
+                </tr>
+            </th>
+
+            <tbody>
+
+            </tbody>
+        </table>
+</div>  --> 
+
+<!-- 53 to  57 -->
+<div id="images">
+     <img src="images/2.jpg" alt="" onclick="big(this)" >
+     <img src="images/4.png" alt="" onclick="big(this)">
+     <img src="images/7.png" alt="" onclick="big(this)">
+     <img src="images/10.jpg" alt="" onclick="big(this)">
+</div>
+
+<div class="modal" id="modal">
+<img id="modalimg" src="" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- ch#58 to 67 -->
-<div>
+<!-- <div>
     <h1> DOM </h1>
     <div id="form-content" class=”content”>
     <label for="first-name">First Name</label>
@@ -104,7 +268,7 @@
             ><p class="render"> Country : Pakistan </p
             ><p class="render"> contact : +92 300 1234567</p>
     </div>
-    </div>
+    </div> -->
     
 
 </body>
