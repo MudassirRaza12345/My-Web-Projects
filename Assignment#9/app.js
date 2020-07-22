@@ -221,9 +221,9 @@
 
 
 // TASK#3
-//one way
+// one way
 // function deleteRow(o) {
- //     var p=o.parentNode.parentNode;
+//      var p=o.parentNode.parentNode;
 //         p.parentNode.removeChild(p);
 //    }
 
@@ -263,34 +263,6 @@
 
 //TASk#1
 
-// function sub(){
-    
-//     var n1=document.getElementById("n1")
-//     var n2=document.getElementById("n2")
-//     var n3=document.getElementById("n3")
-//     document.write("NAME: "+n1.value+"<br>")
-//     document.write("EMAIL: "+n2.value+"<br>")
-//     document.write("PASSWORD: "+n3.value+"<br>")
-     
-    
-// }
-
-
-
-// TASK#2
-// function read(){
-//     var price="18000"
-//     var read=document.getElementById("pera")
-//     read.innerText=price
-//     read.style.textDecoration="none"
-// }
-
-
-
-
-
-// TASK#3
-
 // function AddData() {
 //     var x = document.getElementById("age").value;
 //     var y = document.getElementById("name").value;
@@ -304,7 +276,7 @@
 //         gender = gender ? gender.value : '';
 //         var age = document.getElementById("age").value;
 //         var city = document.getElementById("city").value;
-//         rows += "<td>" + name + "</td><td>" + gender + "</td><td>" + age + "</td><td>" + city + "</td><td>" + '<input type="button" value="Delete" onclick="deleteRow(this)"></input>' + "&nbsp" + '<input type="button" value="Edit" onclick="dis();UpdateRow(this)"></input>' + "</td>";
+//         rows += "<td>" + name + "</td><td>" + gender + "</td><td>" + age + "</td><td>" + city + "</td><td>" + '<input type="button" value="Delete" onclick="deleteRow(this)"></input>' + "&nbsp" + '<input type="button" value="Edit" onclick="editrow(this)"></input>' + "</td>";
 //         var tbody = document.querySelector("#list");
 //         var tr = document.createElement("tr");
 
@@ -314,15 +286,72 @@
 //     }
 // }
 
-// function dis(){
-    
-//     var upt = document.getElementById("uas").style.display = "block";
-//     var apt = document.getElementById("person").style.display = "none";
-// }
+
 // function ResetForm() {
 //     document.getElementById("person").reset();
 // }
 
+// function deleteRow(r) {
+
+//     var i = r.parentNode.parentNode.rowIndex;
+//     document.getElementById("list").deleteRow(i);
+// }
+// var table = document.getElementById("list"),rIndex;
+
+// function editrow(r){
+    
+//     for(var i=1 ; i< table.rows.length ; i++)
+//     {   
+
+//         table.rows[i].onclick = function(){
+           
+//             rIndex = this.rowIndex;
+//             console.log(rIndex);
+//             document.getElementById("button").style.display ="none";
+//             document.getElementById("button1").style.display ="none";
+//             document.getElementById("name").value = this.cells[0].innerHTML;    
+//             document.getElementById("age").value = this.cells[2].innerHTML;
+//             document.getElementById("city").value = this.cells[3].innerHTML;
+            
+//         }
+//         document.getElementById("button2").style.display = "block";
+        
+//     }
+    
+// }
+
+// function Update(){
+
+    
+//     table.rows[rIndex].cells[0].innerHTML = document.getElementById("name").value;
+//     var gender = document.querySelector('input[name="gender"]:checked');
+//         gender = gender ? gender.value : '';
+//     table.rows[rIndex].cells[1].innerHTML = gender;
+//     table.rows[rIndex].cells[2].innerHTML = document.getElementById("age").value;
+//     table.rows[rIndex].cells[3].innerHTML = document.getElementById("city").value;
+
+//     document.getElementById("button2").style.display = "none";
+//     document.getElementById("button").style.display ="inline";
+//     document.getElementById("button1").style.display ="inline";
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// another way for delete
+ 
 // function deleteRow(r) {
 
     // var i = r.parentNode.parentNode.rowIndex;
@@ -331,14 +360,11 @@
 //     p.parentNode.removeChild(p);
 // }
 
-// function UpdateRow(r){
-//     var i = r.parentNode.parentNode.rowIndex;
-//     var z=document.getElementById("uas").rows
-    
+ 
 
 
     
-// }
+
 
 
 //Ch#53 to 57
@@ -415,32 +441,4 @@
 // console.log(e.parentNode)
 
 
-
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
-// TASK#1
+ 
