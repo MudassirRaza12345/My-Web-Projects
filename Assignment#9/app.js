@@ -342,14 +342,31 @@
 
 
 //Ch#53 to 57
+// TASK#1
 // function big(e){
 // var modalimage=document.getElementById("modalimg")
 // modalimage.src=e.src
-// modalimage.style.width="300px"
-// modalimage.style.height="300px"
+// modalimage.style.width="850px"
+// modalimage.style.height="400px"
 // console.log(modalimage)
 
 //  }
+
+// Task#2
+// function zoomin(){
+//     var para=document.getElementById("para")
+    
+//     para.style.fontSize="200%"
+    
+
+// }
+// function zoomout(){
+//     var para=document.getElementById("para")
+    
+//     para.style.fontSize="150%"
+    
+
+// }
 
 
 
