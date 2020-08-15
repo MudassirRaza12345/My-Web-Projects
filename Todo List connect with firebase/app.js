@@ -102,7 +102,7 @@ database.child(key).set(todo)
 
 
     
-//     todoitem.value=""
+     todoitem.value=""
      //for making empty input field
     
 }
