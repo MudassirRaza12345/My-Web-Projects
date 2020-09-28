@@ -30,7 +30,7 @@ h1 >b{
 
 p{
     border: 2px  solid blueviolet;
-    background-color: rgb(26, 14, 6);
+    background-color: rgba(26, 14, 6, 0.876);
     height: 50px;
     font-size: 30px;
     padding-top: 20px;
@@ -46,15 +46,20 @@ a{
     text-decoration: underline dashed white; 
     
 }
-ol{
-    background-image: url("images.jpg");
+body{
+    background-image: url("BK.jpg");
 
 }
 
 
 ol li{
     font-family: 'Times New Roman', Times, serif;
-    color:wheat;
+    color:white;
     font-size: 25px;
+
+    
 }
- 
+ol li p{
+    padding: 20px;
+    /* margin: 20px; */
+} 

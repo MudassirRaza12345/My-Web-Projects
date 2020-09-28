@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to left, lightgray, rgb(91, 91, 172));
+    background-image: url("images.jpg");
+}
+
+#container {
+    border: 2px ridge rgb(97, 130, 168);
+    width: 390px;
+    margin: 0 auto;
+    height: 510px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 1px;
+    /* background: linear-gradient(to left, rgb(91, 91, 172), lightgray); */
+    margin-top: 40px;
+}
+
+#input {
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: lightgray;
+    border-style: solid;
+    height: 26px;
+}
+
+#button {
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    font-weight: bold;
+    height: 25px;
+}
+
+#msg {
+    height: 378px;
+    width: 362px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+#button:hover {
+    background-color: rgb(161, 159, 159);
+}
+
+#input:hover {
+    background-color: rgb(161, 159, 159);
+}
+
+@media screen and (max-width: 400px) {
+    #container {
+        width: 320px;
+        height: 538px;
+    }
+    #input {
+        width: 250px;
+    }
+    #msg {
+        width: 302px;
+    }
+}

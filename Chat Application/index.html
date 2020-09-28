@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+        
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script>    var firebaseConfig = {
+        apiKey: "AIzaSyAzm7NSa9vW1nvxx4BWPrvJY7QKYekQV_s",
+        authDomain: "my-web-projects-ea739.firebaseapp.com",
+        databaseURL: "https://my-web-projects-ea739.firebaseio.com",
+        projectId: "my-web-projects-ea739",
+        storageBucket: "my-web-projects-ea739.appspot.com",
+        messagingSenderId: "365836449344",
+        appId: "1:365836449344:web:e417f1b35e5265726bd1a5",
+        measurementId: "G-XF3EJ1EZN5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      // firebase.analytics();
+    </script>
+
+ 
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+          $(window).on('load', function() {
+              $('#loginModal').modal({
+                  backdrop: 'static',
+                  keyboard: false
+              }, 'show');
+          });
+      </script>
+</head>
+<body>
+
+     
+
+<!--main-->
+<div id="container">
+    <h3 style="border: 1px solid dashed ;;font-weight: bold;color: white;"> <b> <i>GROUP CHAT APPLICATION</i></b> </h3>
+    <hr>
+    <div id="msg">
+
+    </div>
+    <input type="text" placeholder="Enter your message" id="input" size="40px">
+    <button id="button" onclick="send()">Send</button>
+</div>
+<!--login modal-->
+<div class="modal fade" id="loginModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title text-primary" style="text-align: center; font-weight: bold;">Login Form</h4>
+
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align: center; background-color: #FFBD33;">
+                <span class="glyphicon glyphicon-user"></span>
+                <input type="email" id="mail" placeholder="Enter your mail" name="mail" Required>
+                <br>
+                <br>
+                <span class="glyphicon glyphicon-lock"></span>
+                <input type="password" id="pass" placeholder="Enter your password" name="password" Required>
+                <br>
+                <br>
+                <button class="btn btn-success" style="width: 150px; " onclick="login()">Log in</button>
+                <h5>OR</h5>
+                <button class="btn btn-primary" style="width: 150px;" data-toggle="modal" data-target="#signupModal">Sign up with e-mail</button>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button " class="btn btn-danger" data-dismiss="modal" onclick="closes()">Close</button>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--Sign up modal-->
+<div class="modal fade" id="signupModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title" style="text-align: center; font-weight: bold;">Sign up Form</h4>
+
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align: center; background-color: #33FFBD;">
+                <span class="glyphicon glyphicon-envelope"></span>
+                <input type="email" placeholder="Enter your email" id="smail">
+                <br>
+                <br>
+                <span class="glyphicon glyphicon-lock"></span>
+                <input type="password" placeholder="Enter your password" id="spass">
+                <br>
+                <br>
+                <button class="btn btn-primary" style="width: 150px;" onclick="signup()">Sign up</button>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn "  style="background-color: #FFBD33;" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<style style="border: da;"></style>
+
+
+
+    <script src="app.js"></script>
+</script>
+
+
+
+
+
+    
+</body>
+</html>
