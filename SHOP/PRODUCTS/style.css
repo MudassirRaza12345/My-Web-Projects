@@ -1,0 +1,4 @@
+body {
+    background: linear-gradient(to left, lightgray, rgb(91, 91, 172));
+    background-image: url("images.jpg");
+}
